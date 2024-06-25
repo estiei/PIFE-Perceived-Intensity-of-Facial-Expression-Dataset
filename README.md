@@ -28,9 +28,7 @@ This repository contains the human annotation data for the PIFE dataset.
 | intensity*n*     | The intensity assigned by annotator *n*                                                  |
 | intensity_mean   | The mean of intensities assigned by the annotators                                       |
 | intensity_sd     | The standard deviation of the intensities assigned by the annotators                     |
-| annot_group      | The group the annotators were assigned to                                                |
-| first_frame      | ?                                                                                        |
-| position         | ?                                                                                        |
+| annot_group      | The group the annotators were assigned to                                                                                                                     |
 | movie_type       | *A* for artistic movies, or *H* for Hollywood movies                                     |
 
 ### human_annotation_videos_with_AUs.csv
@@ -44,7 +42,6 @@ This repository contains the human annotation data for the PIFE dataset.
 | AU##_r           | The value of each action unit as detected by OpenFace                                    |
 | exp_sum          | The exponent of the sum?                                                                 |
 | sum              | The sum of the AU values                                                                 |
-| clip             | ?                                                                                        |
 | annot_group      | The group the annotators were assigned to                                                |
 | frame_start      | The first frame of the segment                                                           |
 | intensity*n*     | The intensity assigned by annotator *n*                                                  |
@@ -53,5 +50,4 @@ This repository contains the human annotation data for the PIFE dataset.
 | variability*n*   | The variability assigned by annotator *n*                                                |
 | variability_mean | The mean of the variabilities assigned by the annotator                                  |
 | variability_sd   | The standard deviation of the variabilties asssigned by the annotators                   |
-| intensity        | ?                                                                                        |
 | frame_end        | The number of the last frame in the extracted segment                                    |
